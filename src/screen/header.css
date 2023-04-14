@@ -1,0 +1,74 @@
+
+/* Logo */
+.logo img {
+    padding: 10px 0;
+    width: 150px;
+}
+
+/* Banner  */
+.bannerimg{
+    width: 100%;
+}
+
+
+.banner{
+    position: relative;
+}
+
+.textlogo{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+.textlogo img {
+    height: 100px; 
+  }
+
+.formpage{
+    width: 350px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.inputblock{
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+}
+
+.formpage button{
+    background-color: #002D61;
+    color:white;
+    margin-top: 20px;
+}
+
+.bannerform{
+    position: relative;
+}
+
+.formpage{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+
+@media screen and (max-width: 768px) {
+    /* CSS rules for screens with a maximum width of 768 pixels */
+    .formpage{
+        position: static;
+        width: 300px;
+        
+    }
+    .bannerimg{
+        width: 100%;
+        height: 400px;
+    }
+    
+}
+

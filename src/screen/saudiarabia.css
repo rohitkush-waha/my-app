@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.bannerimg{
+    width: 100%;
+}
+
+
+.banner{
+    position: relative;
+}
+
+.textlogo{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+.textlogo img {
+    height: 100px; 
+  }
+
+  .detailsubmit{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+  }

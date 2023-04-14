@@ -1,0 +1,9 @@
+#additionalFieldsContainer {
+    display: none; /* Hide the additional fields initially */
+  }
+  
+  /* Style for the additional fields when expanded */
+  #additionalFieldsContainer.expanded {
+    display: block;
+  }
+  

@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footerlogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.logo img {
+    margin: 20px 0;
+    width: 150px;
+
+
+}
+.link-quotes{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.link{
+    display: flex;
+    
+    gap: 20px;
+}
+.quotes{
+    width: 30%;
+}
+address{
+    text-align: center;
+}
+
+
+
+.sprite1-image {
+    width: 146px;
+    height: 36px;
+    background-image: url("https://c.regencyholidays.com/cms/images/theme/footer-sprite.png");
+   
+  }
+  
+  .cert1 {
+    background-position: -158px 0;
+  
+  }
+
+
+ 
+  .cert2 {
+    background-position: 0 -1px;
+  
+  } 
+
+  .sprite2-image{
+    width: 75px;
+    height: 25px;
+    background-image: url("https://c.regencyholidays.com/cms/images/theme/footer-sprite.png");
+
+  }
+
+  
+  
+  
+  .card1 {
+    background-position: -8px -47px;
+  
+  } 
+ 
+  .belowfooter{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  .cert, .card{
+    display: flex;
+    gap: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .terms{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  address{
+    margin: 20px 0;
+  }
+
+.bgcolor{
+    background-color: #E6E6E6;
+}
