@@ -14,7 +14,7 @@ function Header() {
         <img
           className="bannerimg"
           src="https://c.myholidays.com/tourismbord/saudiarabia/fifa/fifa-landing-page-banner.webp"
-          alt=""
+          alt="bannerimg"
         />
 
         <div className="textlogo">
