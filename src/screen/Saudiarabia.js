@@ -27,7 +27,10 @@ function Saudiarabia() {
       <SadToQar />
 
       <div className="container">
-        <div className="head-adv"> <h1>Unmatched Experience Of Saudi Arabia</h1></div>
+        <div className="head-adv">
+          {" "}
+          <h1>Unmatched Experience Of Saudi Arabia</h1>
+        </div>
         <div class="adv">
           <div>
             <img
@@ -46,7 +49,6 @@ function Saudiarabia() {
           </div>
         </div>
         <div class="adv">
-          
           <div>
             <img
               src="https://c.myholidays.com/tourismbord/saudiarabia/fifa/umrah-express-from-doha.webp"
@@ -69,7 +71,7 @@ function Saudiarabia() {
               alt=""
             />
           </di>
-          <div >
+          <div>
             <h1>Al Ula Open Museum Discovery</h1>
             <p>
               Explore the majestic sites in AlUla and uncover the treasures of
@@ -80,8 +82,7 @@ function Saudiarabia() {
           </div>
         </div>
         <div class="adv">
-          
-          <div >
+          <div>
             <img
               src="https://c.myholidays.com/tourismbord/saudiarabia/fifa/getaway-to-the-red-sea-jeddah-tour.webp"
               alt=""
@@ -97,13 +98,13 @@ function Saudiarabia() {
           </div>
         </div>
         <div class="adv">
-          <div >
+          <div>
             <img
               src="https://c.myholidays.com/tourismbord/saudiarabia/fifa/football-&-the-oasis.webp"
               alt=""
             />
           </div>
-          <div >
+          <div>
             <h1>Football & The Oasis</h1>
             <p>
               With a 4 night hotel stay, flights and transportation taken care
@@ -114,7 +115,6 @@ function Saudiarabia() {
           </div>
         </div>
       </div>
-      
 
       <div className="footbal">
         <img

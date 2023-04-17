@@ -1,60 +1,56 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-  
-.bannerimg{
-    width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-.banner{
-    position: relative;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.textlogo{
-    position: absolute;
-    bottom: 10%;
-    left: 10%;
+.bannerimg {
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+}
+
+.textlogo {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
 }
 
 .textlogo img {
-    height: 100px; 
-  }
-
-  .detailsubmit{
-    position: absolute;
-    top: 20px;
-    right: 30px;
-  }
-  
-
-  .head-adv{
-    text-align: center;
-    margin-top: 40px;
-  }
-
-  .footbal img{
-    width: 100%;
-  }
-
-.adv{
-  display:  block;
-  overflow: hidden;
-
-  
-
+  height: 100px;
 }
 
-.adv:nth-child(odd) img{
+.detailsubmit {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.head-adv {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footbal img {
+  width: 100%;
+}
+
+.adv {
+  display: block;
+  overflow: hidden;
+}
+
+.adv:nth-child(odd) img {
   float: right;
 }
-.adv:nth-child(even) img{
+
+.adv:nth-child(even) img {
   float: left;
 }
