@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
   
 .bannerimg{
     width: 100%;
@@ -27,4 +32,23 @@
     position: absolute;
     top: 20px;
     right: 30px;
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+  }
+  .left-adv{
+    display: flex;
+
+  }
+  .right-adv{
+    display: flex;
+  }
+
+  .head-adv{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .footbal img{
+    width: 100%;
   }

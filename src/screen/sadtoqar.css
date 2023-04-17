@@ -1,0 +1,41 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  .flight-car{
+    display: flex;
+    justify-content: space-evenly;
+}
+.both{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.left-opt label{
+    display: block;
+    padding: 5px;
+}
+.right-opt label{
+    display: block;
+    padding: 5px;
+}
+.main-left{
+    width: 450px;
+    height: 550px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.main-right{
+    width: 700px;
+    height: 600px;
+}
+.head{
+    text-align: center;
+}
